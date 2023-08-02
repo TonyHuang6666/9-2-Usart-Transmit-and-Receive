@@ -12,10 +12,9 @@ int main(void)
 	Serial_Initilize();
 	while(1)
 	{
-		if(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == SET)
+		if(Serial_GetRxFlag() == 1)
 		{
-			RxData = USART_ReceiveData(USART1);
-			//对USART_DR的读操作会自动清除RXNE标志位
+			RxData = Serial_GetRxData();
 			OLED_ShowHexNum(2, 1, RxData, 2);
 		}
 	}

@@ -2,6 +2,9 @@
 #include "OLED.h"
 #include "stdarg.h"
 #include "stdio.h"
+uint8_t Serial_RxData;
+uint8_t Serial_RxFlag;
+
 void Serial_Initilize(void)
 {
 	//1.配置时钟
@@ -27,7 +30,17 @@ void Serial_Initilize(void)
 	USART_InitStructure.USART_StopBits = USART_StopBits_1;
 	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
 	USART_Init(USART1, &USART_InitStructure);
-	//4.开启串口
+	//4.开启串口中断
+	USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);//开启RXNE标志位到NVIC的输出
+	//5.配置NVIC
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置中断分组
+	NVIC_InitTypeDef NVIC_InitStructure;
+	NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;//选择串口1中断
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;//抢占优先级
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;//子优先级
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;//使能中断
+	NVIC_Init(&NVIC_InitStructure);
+	//6.开启串口
 	USART_Cmd(USART1, ENABLE);
 }
 
@@ -108,3 +121,34 @@ void Serial_Printf(char *format,...)
 	Serial_SendString(String);
 }
 
+void USART1_IRQHandler(void)
+{
+	//1.判断标志位
+	if(USART_GetITStatus(USART1, USART_IT_RXNE) == SET)
+	{
+		//2.读取数据
+		Serial_RxData = USART_ReceiveData(USART1);
+		Serial_RxFlag = 1;
+		//3.清除标志位（如果没有读取到数据，标志位不会自动清零）
+		USART_ClearITPendingBit(USART1, USART_IT_RXNE);
+	}
+}
+
+uint8_t Serial_GetRxFlag(void)
+{
+	//返回标志位，0就返回0，1就返回1，但给这个1复位一下，使得查一次就能反应这一次
+	if(Serial_RxFlag == 1)
+	{
+		Serial_RxFlag = 0;
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
+uint8_t Serial_GetRxData(void)
+{
+	return Serial_RxData;
+}
