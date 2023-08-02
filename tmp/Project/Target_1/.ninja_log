@@ -1,25 +1,25 @@
 # ninja log v5
 1	114	0	CMakeFiles/database	ee8864c8fa05245
+1	114	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-2 Usart Transmit and Receive/tmp/Project/Target_1/CMakeFiles/database	ee8864c8fa05245
+38	293	7126563149056449	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_bkp.o	c546cde9580637e0
 835	1178	7126563157887072	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_rtc.o	8f6a3a71309371b1
 3	267	7126602284164990	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/Hardware/OLED.o	3c57da46e0206287
-38	293	7126563149056449	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_bkp.o	c546cde9580637e0
-1	114	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-2 Usart Transmit and Receive/tmp/Project/Target_1/CMakeFiles/database	ee8864c8fa05245
+2	257	7126563148676382	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/Hardware/LED.o	45ac37362ba6594
 735	1111	7126563157135516	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_i2c.o	d4293d2b333312df
 44	397	7126563149756489	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/Library/misc.o	827be94fa6613194
-2	257	7126563148676382	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/Hardware/LED.o	45ac37362ba6594
 19	364	7126563149196602	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/Hardware/Key.o	9b11150ef9bd5606
 13	372	7126563149491817	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/Hardware/ADC.o	deb622e30bc4d8ac
-1169	1506	7126563161187710	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Start/system_stm32f10x.o	15cbf84ff65591e0
 51	416	7126563150301865	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_adc.o	33afbad13c56b987
-389	794	7126563153434676	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_dma.o	7432d2165cf16028
+1169	1506	7126563161187710	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Start/system_stm32f10x.o	15cbf84ff65591e0
 4	246	7126617565372012	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/Hardware/Serial.o	6800b729f04b967a
+389	794	7126563153434676	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_dma.o	7432d2165cf16028
 258	532	7126563151486690	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_dac.o	1bb99a55da2777a7
-900	1168	7126563157651892	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_pwr.o	ff055d497900037f
 293	584	7126563152044058	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_cec.o	80ce8b7863068cf2
+900	1168	7126563157651892	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_pwr.o	ff055d497900037f
 373	734	7126563153354692	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_crc.o	44e3f12909d411d5
 425	804	7126563153533670	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_dbgmcu.o	8412d6b4adbfdf80
-795	1157	7126563157667088	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_fsmc.o	5051d0bae475612d
 398	823	7126563153593651	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_exti.o	206c45fd82d073a3
+795	1157	7126563157667088	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_fsmc.o	5051d0bae475612d
 584	834	7126563154358925	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_iwdg.o	5e3ac629c0b52bec
 364	843	7126563154518921	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_can.o	8a1d14af44548c26
 416	900	7126563155020423	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_flash.o	cebc3b1cb3009f8e
@@ -27,15 +27,15 @@
 844	1189	7126563158077074	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_sdio.o	3dfd237374afd8c5
 804	1218	7126563158287146	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_gpio.o	f6a5c9fc8b98157b
 823	1274	7126563158735304	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_rcc.o	55f068beddb27316
-1219	1504	7126563161177725	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/System/Delay.o	ed229fbea6ca6836
 1158	1377	7126563159941113	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/Start/core_cm3.o	ef03f35cb3eba457
+1219	1504	7126563161177725	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/System/Delay.o	ed229fbea6ca6836
 1190	1463	7126563160537618	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_wwdg.o	5732c10b6e268cc
 1111	1509	7126563161237735	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_spi.o	a680a3f203837612
 1179	1586	7126563161935588	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_usart.o	60ea150ed6a41d7
 1274	1587	7126563161975630	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/System/DMA.o	3ea56805d409aad0
-52	215	7126617565099587	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/User/main.o	7bf887cd6871d7
+4	188	7126620028934407	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/User/main.o	7bf887cd6871d7
 1463	1648	7126563162719712	CMakeFiles/Project.dir/1b1ce569632f170942f38e1cbfe1967d/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/User/stm32f10x_it.o	ae65ef73d600125e
 945	1663	7126563162842758	CMakeFiles/Project.dir/71ca556ab2a76501f88f78fd13863f4e/Examples/9-2_Usart_Transmit_and_Receive/Library/stm32f10x_tim.o	6d25994623d03259
-247	377	7126617566694722	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-2 Usart Transmit and Receive/out/Project/Target_1/Project.axf	21b32cc05dec7fe
-3	124	7126617813261185	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/User/main.o	7bf887cd6871d7
-125	245	7126617814472306	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-2 Usart Transmit and Receive/out/Project/Target_1/Project.axf	21b32cc05dec7fe
+189	297	7126620030024421	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-2 Usart Transmit and Receive/out/Project/Target_1/Project.axf	21b32cc05dec7fe
+4	127	7126620818254530	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-2_Usart_Transmit_and_Receive/User/main.o	7bf887cd6871d7
+128	262	7126620819621103	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-2 Usart Transmit and Receive/out/Project/Target_1/Project.axf	21b32cc05dec7fe

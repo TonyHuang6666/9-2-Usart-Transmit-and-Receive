@@ -15,6 +15,7 @@ int main(void)
 		if(Serial_GetRxFlag() == 1)
 		{
 			RxData = Serial_GetRxData();
+			Serial_SendByte(RxData);
 			OLED_ShowHexNum(2, 1, RxData, 2);
 		}
 	}
